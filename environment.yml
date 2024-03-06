@@ -1,0 +1,12 @@
+name: search_bu_cosine_similarity
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - scikit-learn
+  - jupyter
+  - pytest
+  - pip:
+    - pip
+    - fasttext
