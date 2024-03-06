@@ -47,16 +47,12 @@ results = finder.search('query text')
 ```
 
 ## API Reference
-CosineTFIDFFinder
-```bash
-preprocess_dataset(dataset, transform): Prepares the dataset by transforming it into TF-IDF vectors.
 
-search(query, similarity_threshold=0.5, top_n=5): Searches for the top N most similar texts in the dataset to the query.
-```
-CosineFastTextFinder
-```bash
-preprocess_dataset(dataset, transform): Transforms and vectorizes the dataset texts using the FastText model.
+- **CosineTFIDFFinder**
+  - `preprocess_dataset(dataset, transform)`: Prepares the dataset by transforming it into TF-IDF vectors.
+  - `search(query, similarity_threshold=0.5, top_n=5)`: Searches for the top N most similar texts in the dataset to the query.
 
-search(query, similarity_threshold=0.5, top_n=5): Searches for the most similar dataset
-texts to the query.
-```
+- **CosineFastTextFinder**
+  - `preprocess_dataset(dataset, transform)`: Transforms and vectorizes the dataset texts using the FastText model.
+  - `search(query, similarity_threshold=0.5, top_n=5)`: Searches for the most similar dataset texts to the query.
+
