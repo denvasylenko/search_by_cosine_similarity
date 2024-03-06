@@ -1,0 +1,2 @@
+from tests.TestCosinceTFIDFFinder import TestCosinceTFIDFFinder
+from tests.TestCosineFastTextFinder import TestCosineFastTextFinder
